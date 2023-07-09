@@ -7,7 +7,7 @@ This PDO wrapper is a collection of methods for working with a database, includi
 ## Quick Reference
 ```php
 // Create new instance
-$db = new Database('localhost', 'db_name', $user, $password);
+$db = new Database('localhost', 'db_name', 'username', 'password');
 
 // Create table
 $db->raw("CREATE TABLE demo (id int auto_increment primary key, name varchar(255))");
